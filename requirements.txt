@@ -1,0 +1,14 @@
+pandas==1.5.3
+numpy==1.24.4
+requests==2.31.0
+jupyter==1.0.0
+notebook==6.5.5
+matplotlib==3.7.3
+transformers==4.35.1
+scikit-learn==1.3.1
+mpmath==1.3.0
+networkx==3.4.2
+sympy==1.13.1
+torch==2.5.1
+openai==1.58.1
+python-dotenv==1.0.1

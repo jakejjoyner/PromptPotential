@@ -1,0 +1,25 @@
+project-root/
+├── data/                   # All raw and processed datasets
+│   ├── raw/                # Raw, unprocessed datasets
+│   │   ├── empathetic_dialogues.csv
+│   │   ├── writing_prompts.csv
+│   │   └── ...             # Add other datasets here
+│   ├── processed/          # Cleaned or filtered datasets
+│   │   ├── empathy_filtered.csv
+│   │   └── ...             # Processed versions of other datasets
+├── notebooks/              # Jupyter notebooks for exploring data and prototyping
+│   ├── data_exploration.ipynb
+│   └── model_testing.ipynb
+├── src/                    # Source code for the project
+│   ├── data_processing.py  # Scripts for loading and cleaning datasets
+│   ├── model_training.py   # Scripts for training your LLM
+│   └── evaluation.py       # Scripts for scoring user prompts
+├── models/                 # Directory for storing trained models
+│   ├── fine_tuned_llm/     
+│   │   ├── checkpoint.pt   # Example of a saved model checkpoint
+│   └── ...
+├── tests/                  # Scripts for testing functionality
+│   ├── test_data_processing.py
+│   └── test_model.py
+├── requirements.txt        # Python dependencies (e.g., pandas, numpy, transformers)
+├── README.md               # Overview and instructions for the project
