@@ -11,12 +11,13 @@ client = OpenAI()
 
 CORS(app)
 
+# Initialize the message history
+conversation_history = [
+    {"role": "system", "content": "You are a helpful assistant."}
+]
+
 @app.route("/chat", methods=["POST"])
 def chat():
-    # Initialize the message history
-    conversation_history = [
-        {"role": "system", "content": "You are a helpful assistant."}
-    ]
 
     # Get user input
     user_input = request.get_json(force=True)["message"]
